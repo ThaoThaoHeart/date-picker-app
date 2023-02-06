@@ -1,0 +1,15 @@
+
+
+.monthWrapper{
+  display: grid;
+  grid-template-columns: repeat(7, 80px)
+}
+
+.dayWrapper{
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.currentDay{
+  background: #7eb8f1;
+}
